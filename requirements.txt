@@ -1,0 +1,4 @@
+pyotp>=2.8.0
+pytz>=2023.3
+fyers-apiv3>=2.0.0
+pyinstaller>=5.13.0
