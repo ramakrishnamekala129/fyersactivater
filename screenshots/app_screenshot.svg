@@ -1,0 +1,65 @@
+<svg width="600" height="650" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="650" fill="#f0f0f0" />
+  
+  <!-- Window border -->
+  <rect x="10" y="10" width="580" height="630" rx="5" ry="5" fill="white" stroke="#cccccc" stroke-width="1" />
+  
+  <!-- Title bar -->
+  <rect x="10" y="10" width="580" height="30" rx="5" ry="5" fill="#e0e0e0" />
+  <text x="300" y="30" font-family="Arial" font-size="14" text-anchor="middle" fill="#333333">Fyers API Authentication</text>
+  
+  <!-- Main content area -->
+  <rect x="30" y="60" width="540" height="560" rx="5" ry="5" fill="white" stroke="#dddddd" stroke-width="1" />
+  
+  <!-- Title -->
+  <text x="300" y="90" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333333">Fyers API Authentication</text>
+  
+  <!-- Input fields section -->
+  <rect x="50" y="110" width="500" height="300" rx="5" ry="5" fill="white" stroke="#dddddd" stroke-width="1" />
+  <text x="60" y="130" font-family="Arial" font-size="12" fill="#333333">Authentication Details</text>
+  
+  <!-- Input fields -->
+  <text x="70" y="160" font-family="Arial" font-size="12" fill="#333333">Client ID:</text>
+  <rect x="200" y="145" width="320" height="25" rx="3" ry="3" fill="white" stroke="#aaaaaa" stroke-width="1" />
+  
+  <text x="70" y="195" font-family="Arial" font-size="12" fill="#333333">Secret Key:</text>
+  <rect x="200" y="180" width="320" height="25" rx="3" ry="3" fill="white" stroke="#aaaaaa" stroke-width="1" />
+  
+  <text x="70" y="230" font-family="Arial" font-size="12" fill="#333333">Redirect URI:</text>
+  <rect x="200" y="215" width="320" height="25" rx="3" ry="3" fill="white" stroke="#aaaaaa" stroke-width="1" />
+  
+  <text x="70" y="265" font-family="Arial" font-size="12" fill="#333333">Fyers ID:</text>
+  <rect x="200" y="250" width="320" height="25" rx="3" ry="3" fill="white" stroke="#aaaaaa" stroke-width="1" />
+  
+  <text x="70" y="300" font-family="Arial" font-size="12" fill="#333333">PIN:</text>
+  <rect x="200" y="285" width="320" height="25" rx="3" ry="3" fill="white" stroke="#aaaaaa" stroke-width="1" />
+  
+  <text x="70" y="335" font-family="Arial" font-size="12" fill="#333333">TOTP Key:</text>
+  <rect x="200" y="320" width="320" height="25" rx="3" ry="3" fill="white" stroke="#aaaaaa" stroke-width="1" />
+  
+  <!-- Buttons -->
+  <rect x="70" y="370" width="120" height="30" rx="5" ry="5" fill="#4CAF50" stroke="#388E3C" stroke-width="1" />
+  <text x="130" y="390" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Generate Auth URL</text>
+  
+  <rect x="200" y="370" width="120" height="30" rx="5" ry="5" fill="#2196F3" stroke="#1976D2" stroke-width="1" />
+  <text x="260" y="390" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Open in Browser</text>
+  
+  <rect x="330" y="370" width="120" height="30" rx="5" ry="5" fill="#FF9800" stroke="#F57C00" stroke-width="1" />
+  <text x="390" y="390" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Copy URL</text>
+  
+  <rect x="460" y="370" width="80" height="30" rx="5" ry="5" fill="#9E9E9E" stroke="#757575" stroke-width="1" />
+  <text x="500" y="390" font-family="Arial" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Clear</text>
+  
+  <!-- URL Display section -->
+  <rect x="50" y="420" width="500" height="150" rx="5" ry="5" fill="white" stroke="#dddddd" stroke-width="1" />
+  <text x="60" y="440" font-family="Arial" font-size="12" fill="#333333">Generated URL</text>
+  
+  <!-- URL Text area -->
+  <rect x="60" y="450" width="480" height="110" rx="3" ry="3" fill="white" stroke="#aaaaaa" stroke-width="1" />
+  <text x="70" y="470" font-family="Arial" font-size="10" fill="#666666">https://api.fyers.in/api/v2/generate-authcode?client_id=...</text>
+  
+  <!-- Status bar -->
+  <rect x="10" y="630" width="580" height="20" fill="#e0e0e0" />
+  <text x="20" y="645" font-family="Arial" font-size="10" fill="#333333">Ready</text>
+</svg>
