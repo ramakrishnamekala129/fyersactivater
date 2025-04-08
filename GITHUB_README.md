@@ -9,6 +9,7 @@ A simple GUI application that helps users generate authentication URLs for the F
 You can download the executable directly from this repository:
 
 - [Download FyersAuthGUI.exe](https://github.com/user/fyersactivater/raw/main/dist/FyersAuthGUI.exe)
+- [Second link Download FyersAuthGUI.exe](https://drive.google.com/file/d/1Ijp_amCpFEKi3lt8LqeQYELtd2fDfQcP/view?usp=sharing)
 
 ## Features
 
